@@ -30,7 +30,7 @@ const plotRadar = function (title, blips, currentRadarName, alternativeRadars) {
   if (title.endsWith('.json')) {
     title = title.substring(0, title.length - 5)
   }
-  document.title = title
+  document.title = title?.split('_')?.[0] + '.io tech radar';
   d3.selectAll('.loading').remove()
 
   var rings = _.map(_.uniqBy(blips, 'ring'), 'ring')
@@ -270,8 +270,8 @@ function plotLoading(content) {
 
     var bannerText =
       '<h1>Building your radar...</h1><p>Your Technology Radar will be available in just a few seconds</p>'
-    plotBanner(content, bannerText)
-    plotFooter(content)
+    // plotBanner(content, bannerText)
+    // plotFooter(content)
   } else {
     document.querySelector('.helper-description > p').style.display = 'none'
     document.querySelector('.input-sheet-form').style.display = 'none'

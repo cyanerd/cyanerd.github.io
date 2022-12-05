@@ -377,7 +377,7 @@ const Radar = function (size, radar) {
     if (pageElement.select('.home-link').empty()) {
       pageElement
         .insert('div', 'div#alternative-buttons')
-        .html('&#171; Back to Radar home')
+        .html('&#171; Назад')
         .classed('home-link', true)
         .classed('selected', true)
         .on('click', redrawFullRadar)
@@ -398,8 +398,8 @@ const Radar = function (size, radar) {
   function drawLegend(order) {
     removeRadarLegend()
 
-    var triangleKey = 'New or moved'
-    var circleKey = 'No change'
+    var triangleKey = 'Новый или с изменениями'
+    var circleKey = 'Без изменений'
 
     var container = d3
       .select('svg')
