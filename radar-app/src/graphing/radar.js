@@ -703,8 +703,8 @@ const Radar = function (size, radar) {
       })
       plotHeader()
     } else {
-      plotRadarHeader()
-      plotRadarFooter()
+      // plotRadarHeader()
+      // plotRadarFooter()
     }
 
     if (alternatives.length) {
