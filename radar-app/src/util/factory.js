@@ -218,7 +218,7 @@ const GoogleSheetInput = function () {
     var domainName = DomainName(window.location.search.substring(1))
     var queryString = window.location.href.match(/sheetId(.*)/)
     var queryParams = queryString ? QueryParams(queryString[0]) : {}
-    queryParams.sheetId = 'https://cyanerd.github.io/zveno.csv';
+    queryParams.sheetId = 'https://cyanerd.github.io/zveno_v1.csv';
 
     if (queryParams.sheetId && queryParams.sheetId.endsWith('.csv')) {
       sheet = CSVDocument(queryParams.sheetId)
