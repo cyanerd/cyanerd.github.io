@@ -1,0 +1,8 @@
+http://localhost:8080/files/my_radar.csv
+https://www.thoughtworks.com/
+https://tlroadmap.io/roles/technical-lead/tech-knowledge/stack-choice.html
+https://radar.tinkoff.ru/javascript/
+https://docs.google.com/spreadsheets/d/1g6OwVeSMSkdUepKAQjBqt4MOs-n5dfBQrwXQgaPNFcg/edit#gid=0
+https://github.com/thoughtworks/build-your-own-radar
+https://www.thoughtworks.com/content/dam/thoughtworks/documents/radar/2022/10/tr_technology_radar_vol_27_en.pdf
+https://www.youtube.com/watch?v=igd8I_56byM
