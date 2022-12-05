@@ -1,4 +1,4 @@
-name,ring,quadrant,FALSE,description
+name,ring,quadrant,isNew,description
 NestJS,Adopt,languages-and-frameworks,FALSE,
 VueJS,Adopt,languages-and-frameworks,FALSE,
 NuxtJS,Adopt,languages-and-frameworks,FALSE,

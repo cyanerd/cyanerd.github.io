@@ -218,6 +218,7 @@ const GoogleSheetInput = function () {
     var domainName = DomainName(window.location.search.substring(1))
     var queryString = window.location.href.match(/sheetId(.*)/)
     var queryParams = queryString ? QueryParams(queryString[0]) : {}
+    queryParams.sheetId = 'https://cyanerd.github.io/zveno.csv';
 
     if (queryParams.sheetId && queryParams.sheetId.endsWith('.csv')) {
       sheet = CSVDocument(queryParams.sheetId)
@@ -282,7 +283,7 @@ function plotLogo(content) {
   content
     .append('div')
     .attr('class', 'input-sheet__logo')
-    .html('<a href="https://www.thoughtworks.com"><img src="/images/tw-logo.png" / ></a>')
+    .html('<a href="https://www.thoughtworks.com"><img src="./images/tw-logo.png" / ></a>')
 }
 
 function plotFooter(content) {
