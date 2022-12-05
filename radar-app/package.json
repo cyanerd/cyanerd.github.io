@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack --mode development --config webpack.dev.js",
-    "build:prod": "webpack --mode production --config webpack.prod.js --env ASSET_PATH=/radar/",
+    "build:prod": "ASSET_PATH=/radar/ webpack --mode production --config webpack.prod.js",
     "dev": "webpack-dev-server --mode development --config webpack.dev.js",
     "test": "jasmine",
     "test:e2e": "cypress run --env host=$TEST_URL",
